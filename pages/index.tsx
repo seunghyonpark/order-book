@@ -20,6 +20,7 @@ export default function Home() {
             <a className="btn btn--purple px-6 py-2">Open the orderbook</a>
           </Link>
         </div>
+
         <div className="hidden lg:flex lg:flex-row lg:items-center lg:gap-2">
           <Link href="/responsive">
             <a className="btn btn--purple px-6 py-2">Open responsive layout</a>
@@ -31,6 +32,7 @@ export default function Home() {
             </Link>
           </p>
         </div>
+
         <a
           href="/coverage/lcov-report/index.html"
           className="hidden lg:block text-center text-gray-400 text-sm"
@@ -40,15 +42,7 @@ export default function Home() {
         </a>
       </div>
       <p>
-        Made with ❤️ by{" "}
-        <a
-          href="https://alexrohleder.com"
-          target="_blank"
-          rel="noreferrer"
-          className="text-purple-300"
-        >
-          Alex Rohleder
-        </a>
+        ❤️{"  "}Made by nuklabs{"  "}❤️
       </p>
     </div>
   );

@@ -20,7 +20,7 @@ function OrderBook(props: Props) {
       <Provider store={store}>
         <div className="flex flex-col h-full text-sm lg:text-base">
           <div className="flex items-center w-full h-14 px-8 border-b border-gray-500">
-            Order Book
+            Order Book ❤️{"  "}Made by nuklabs{"  "}❤️
           </div>
           <div className="flex-1 flex flex-col overflow-hidden">
             <OrderBookSocketStateDisplay>
@@ -43,7 +43,9 @@ function OrderBook(props: Props) {
     <Provider store={store}>
       <div className="flex flex-col h-full text-sm lg:text-base relative">
         <div className="flex items-center w-full h-14 justify-center border-b border-gray-500">
-          <div className="absolute left-8">Order Book</div>
+          <div className="absolute left-8">
+            ❤️{"  "}Made by nuklabs{"  "}❤️{"    "}Order Book
+          </div>
           <OrderBookSpread />
         </div>
         <div className="flex-1 flex flex-col lg:flex-row overflow-hidden">
