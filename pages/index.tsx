@@ -6,12 +6,15 @@ export default function Home() {
       <div className="flex-1 flex flex-col gap-8 lg:gap-4 justify-center">
         <div className="flex flex-col gap-2">
           <h1 className="text-3xl font-bold">Orderbook</h1>
+          {/*
           <p>
             This is a sample orderbook application implemented with{" "}
             <br className="hidden lg:block" />
             NextJS, TailwindCSS, Redux and Redux-Saga 🚀
           </p>
+          */}
         </div>
+
         <div className="lg:hidden">
           <Link href="/responsive">
             <a className="btn btn--purple px-6 py-2">Open the orderbook</a>
