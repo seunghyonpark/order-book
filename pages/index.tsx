@@ -5,7 +5,7 @@ export default function Home() {
     <div className="h-screen flex flex-col items-center justify-between gap-4 p-12">
       <div className="flex-1 flex flex-col gap-8 lg:gap-4 justify-center">
         <div className="flex flex-col gap-2">
-          <h1 className="text-3xl font-bold">Orderbook</h1>
+          <h1 className="text-3xl font-bold">-- Orderbook --</h1>
           {/*
           <p>
             This is a sample orderbook application implemented with{" "}
