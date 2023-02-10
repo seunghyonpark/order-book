@@ -22,7 +22,7 @@ function OrderBookFooter() {
     <button
       type="button"
       disabled={socketState === "CONNECTING"}
-      className="btn btn--purple"
+      className="btn btn--purple hidden"
       onClick={() => dispatch(switchedProducts())}
     >
       Toggle Feed
